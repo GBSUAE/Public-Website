@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Gap Bridging Solution</title
+    ><meta property="og:title" content="Gap Bridging Solution" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./index.css" rel="stylesheet" /><div class="home-container"
+        ><navbar8-wrapper class="navbar8-wrapper"
+          ><!--Navbar8 component--><header class="navbar8-container"
+            ><header data-thq="thq-navbar" class="navbar8-navbar-interactive"
+              ><img
+                alt="Gap Bridging Solution Logo"
+                src="public/openart-image_xXlvvTeN_1748197725836_raw.jpg"
+                class="navbar8-image1" /><div
+                data-thq="thq-navbar-nav"
+                class="navbar8-desktop-menu"
+                ><nav class="navbar8-links1"
+                  ><a
+                    href="index.html"
+                    class="navbar8-link11 thq-link thq-body-small"
+                    ><fragment class="home-fragment10"
+                      ><span class="home-text10">Home</span></fragment
+                    ></a
+                  ><a
+                    href="about.html"
+                    class="navbar8-link12 thq-link thq-body-small"
+                    ><fragment class="home-fragment11"
+                      ><span class="home-text11">About Us</span></fragment
+                    ></a
+                  ></nav
+                ></div
+              ><div data-thq="thq-burger-menu" class="navbar8-burger-menu"
+                ><svg viewBox="0 0 1024 1024" class="navbar8-icon1">
+                  <path
+                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path></svg
+                ><nav class="navbar8-links2"
+                  ><a
+                    href="index.html"
+                    class="navbar8-link13 thq-link thq-body-small"
+                    ><fragment class="home-fragment12"
+                      ><span class="home-text12">Home</span></fragment
+                    ></a
+                  ><a
+                    href="about.html"
+                    class="navbar8-link14 thq-link thq-body-small"
+                    ><fragment class="home-fragment13"
+                      ><span class="home-text13">About Us</span></fragment
+                    ></a
+                  ></nav
+                ></div
+              ><div data-thq="thq-mobile-menu" class="navbar8-mobile-menu"
+                ><div class="navbar8-nav"
+                  ><div class="navbar8-top"
+                    ><img
+                      alt="Gap Bridging Solution Logo"
+                      src="public/openart-image_xXlvvTeN_1748197725836_raw.jpg"
+                      class="navbar8-logo" /><div
+                      data-thq="thq-close-menu"
+                      class="navbar8-close-menu"
+                    ></div></div></div></div></header></header></navbar8-wrapper
+        ><hero3-wrapper class="hero3-wrapper"
+          ><!--Hero3 component--><div class="hero3-header9"
+            ><img
+              alt="HR Workflow Automation"
+              src="public/openart-image_rj9tyfzx_1748120199554_raw-1500w.jpg"
+              class="thq-img-ratio-16-9"
+            /><div class="hero3-content thq-section-padding"
+              ><div class="hero3-max-width thq-flex-row thq-section-max-width"
+                ><div class="hero3-column1"
+                  ><h1 class="thq-heading-1 hero3-text1"
+                    ><fragment class="home-fragment17"
+                      ><span class="home-text17"
+                        >Empower Your HR with Gap Bridging Solution</span
+                      ></fragment
+                    ></h1
+                  ></div
+                ><div class="hero3-column2"
+                  ><p class="thq-body-large hero3-text2"
+                    ><fragment class="home-fragment16"
+                      ><span class="home-text16"
+                        >Digitize your HR operations with ease — from onboarding
+                        and workflow automation to asset tracking — all tailored
+                        for small and medium-sized enterprises.</span
+                      ></fragment
+                    ></p
+                  ><div class="hero3-actions"
+                    ><button class="thq-button-filled hero3-button1"
+                      ><a
+                        href="https://forms.gle/bTQeewMeVJZXdYCc8"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="hero3-text3 thq-body-small"
+                        ><fragment class="home-fragment14"
+                          ><span class="home-text14"
+                            >Get Started</span
+                          ></fragment
+                        ></a
+                      ></button
+                    ><a
+                      href="mailto:demo@gapbridgingsolution.com?subject=Interested in a Demo for HR Automation Platform"
+                      class="hero3-button2 thq-button-outline"
+                      ><span class="thq-body-small"
+                        ><fragment class="home-fragment15"
+                          ><span class="home-text15"
+                            >Request a Demo</span
+                          ></fragment
+                        ></span
+                      ></a
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></hero3-wrapper
+        ><features24-wrapper class="features24-wrapper"
+          ><!--Features24 component--><div class="thq-section-padding"
+            ><div class="features24-container2 thq-section-max-width"
+              ><div class="features24-image-container"
+                ><img
+                  alt="HR Workflow Automation"
+                  src="public/openart-image_2d2hv_xf_1748120252559_raw-1400w.jpg"
+                  class="features24-image1 thq-img-ratio-16-9"/></div
+              ><div class="features24-tabs-menu"
+                ><div class="features24-tab-horizontal1"
+                  ><div class="features24-divider-container1"
+                    ><div class="features24-container3"></div></div
+                  ><div class="features24-content1"
+                    ><h2 class="thq-heading-2"
+                      ><fragment class="home-fragment18"
+                        ><span class="home-text18"
+                          >HR Workflow Automation</span
+                        ></fragment
+                      ></h2
+                    ><span class="thq-body-small"
+                      ><fragment class="home-fragment21"
+                        ><span class="home-text21"
+                          >Automate your HR processes — from leave tracking to
+                          approval workflows — with intuitive tools that improve
+                          accuracy and save time.</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ></div
+                ><div class="features24-tab-horizontal2"
+                  ><div class="features24-divider-container2"
+                    ><div class="features24-container4"></div></div
+                  ><div class="features24-content2"
+                    ><h2 class="thq-heading-2"
+                      ><fragment class="home-fragment19"
+                        ><span class="home-text19"
+                          >Asset Tracking</span
+                        ></fragment
+                      ></h2
+                    ><span class="thq-body-small"
+                      ><fragment class="home-fragment22"
+                        ><span class="home-text22"
+                          >Monitor and manage company laptops, phones, and other
+                          assets from Day 1. Stay informed with handover records
+                          and real-time updates.</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ></div
+                ><div class="features24-tab-horizontal3"
+                  ><div class="features24-divider-container3"
+                    ><div class="features24-container5"></div></div
+                  ><div class="features24-content3"
+                    ><h2 class="thq-heading-2"
+                      ><fragment class="home-fragment20"
+                        ><span class="home-text20"
+                          >Simplified Onboarding</span
+                        ></fragment
+                      ></h2
+                    ><span class="thq-body-small"
+                      ><fragment class="home-fragment23"
+                        ><span class="home-text23"
+                          >Welcome new employees with seamless onboarding flows:
+                          digital forms, automated IT requests, and
+                          pre-configured induction steps.</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></features24-wrapper
+        ><cta26-wrapper class="cta26-wrapper"
+          ><!--CTA26 component--><div class="thq-section-padding"
+            ><div class="thq-section-max-width"
+              ><div class="cta26-accent2-bg"
+                ><div class="cta26-accent1-bg"
+                  ><div class="cta26-container2"
+                    ><div class="cta26-content"
+                      ><span class="thq-heading-2"
+                        ><fragment class="home-fragment26"
+                          ><span class="home-text26"
+                            >Transform the Way You Manage HR</span
+                          ></fragment
+                        ></span
+                      ><p class="thq-body-large"
+                        ><fragment class="home-fragment25"
+                          ><span class="home-text25"
+                            >Gap Bridging Solution helps small and medium
+                            enterprises streamline their HR workflows,
+                            onboarding, and asset tracking with smart, intuitive
+                            tools.</span
+                          ></fragment
+                        ></p
+                      ></div
+                    ><div class="cta26-actions"
+                      ><a
+                        href="mailto:contact@gapbridgingsolution.com?subject=Explore Solutions – Gap Bridging Solution"
+                        class="cta26-link thq-button-filled"
+                        ><span
+                          ><fragment class="home-fragment24"
+                            ><span class="home-text24"
+                              >Explore Our Solutions</span
+                            ></fragment
+                          ></span
+                        ></a
+                      ></div
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></cta26-wrapper
+        ><features25-wrapper class="features25-wrapper"
+          ><!--Features25 component--><div class="thq-section-padding"
+            ><div class="features25-container2 thq-section-max-width"
+              ><div class="features25-tabs-menu"
+                ><div class="features25-tab-horizontal1"
+                  ><div class="features25-divider-container1"
+                    ><div class="features25-container3"></div></div
+                  ><div class="features25-content1"
+                    ><h2 class="thq-heading-2"
+                      ><fragment class="home-fragment27"
+                        ><span class="home-text27"
+                          >Centralized HR Workflow Automation</span
+                        ></fragment
+                      ></h2
+                    ><span class="thq-body-small"
+                      ><fragment class="home-fragment30"
+                        ><span class="home-text30"
+                          >Automate time-consuming HR operations like leave
+                          tracking, approvals, and employee records. Reduce
+                          manual effort while boosting compliance and
+                          visibility.</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ></div
+                ><div class="features25-tab-horizontal2"
+                  ><div class="features25-divider-container2"
+                    ><div class="features25-container4"></div></div
+                  ><div class="features25-content2"
+                    ><h2 class="thq-heading-2"
+                      ><fragment class="home-fragment28"
+                        ><span class="home-text28"
+                          >Simplified Onboarding Experience</span
+                        ></fragment
+                      ></h2
+                    ><span class="thq-body-small"
+                      ><fragment class="home-fragment31"
+                        ><span class="home-text31"
+                          >Bring new hires onboard with a seamless
+                          experience—from offer letters and document collection
+                          to IT setup and induction tracking—all in one
+                          system.</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ></div
+                ><div class="features25-tab-horizontal3"
+                  ><div class="features25-divider-container3"
+                    ><div class="features25-container5"></div></div
+                  ><div class="features25-content3"
+                    ><h2 class="thq-heading-2"
+                      ><fragment class="home-fragment29"
+                        ><span class="home-text29"
+                          >Real-Time Asset Management</span
+                        ></fragment
+                      ></h2
+                    ><span class="thq-body-small"
+                      ><fragment class="home-fragment32"
+                        ><span class="home-text32"
+                          >Assign, monitor, and retrieve laptops, IDs, phones,
+                          and other assets easily. Stay informed with real-time
+                          updates, handover logs, and exception alerts.</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ></div
+                ></div
+              ><div class="features25-image-container"
+                ><img
+                  alt="feature 1"
+                  src="public/openart-image_glfemnht_1748120200028_raw-1400w.jpg"
+                  class="features25-image1 thq-img-ratio-16-9" /></div></div></div></features25-wrapper
+        ><steps1-wrapper class="steps1-wrapper"
+          ><!--Steps1 component--><div
+            class="steps1-container1 thq-section-padding"
+            ><div class="steps1-max-width thq-section-max-width"
+              ><div class="steps1-container2"
+                ><div class="steps1-container3 thq-card"
+                  ><img
+                    alt="Sign Up Image"
+                    src="public/openart-image_c_jqibhb_1748119977326_raw-1400w.jpg"
+                    class="steps1-image1 thq-img-ratio-1-1"
+                  /><h2 class="thq-heading-2"
+                    ><fragment class="home-fragment33"
+                      ><span class="home-text33"
+                        >Reach Out to Us</span
+                      ></fragment
+                    ></h2
+                  ><span class="steps1-text11 thq-body-small"
+                    ><fragment class="home-fragment37"
+                      ><span class="home-text37"
+                        >Contact us via the form or email — our team will
+                        connect with you to understand your interest and
+                        schedule a personalized demo.</span
+                      ></fragment
+                    ></span
+                  ><label class="steps1-text12 thq-heading-3">01</label></div
+                ><div class="steps1-container4 thq-card"
+                  ><img
+                    alt="HR Workflow Image"
+                    src="public/openart-image_aztjdvr8_1748120663806_raw-1400w.jpg"
+                    class="steps1-image2 thq-img-ratio-1-1"
+                  /><h2 class="thq-heading-2"
+                    ><fragment class="home-fragment34"
+                      ><span class="home-text34"
+                        >Requirement Gathering</span
+                      ></fragment
+                    ></h2
+                  ><span class="steps1-text14 thq-body-small"
+                    ><fragment class="home-fragment38"
+                      ><span class="home-text38"
+                        >After the demo, we’ll collect your team structure,
+                        approval workflows, and process details to configure the
+                        solution around your needs.</span
+                      ></fragment
+                    ></span
+                  ><label class="steps1-text15 thq-heading-3">02</label></div
+                ></div
+              ><div class="steps1-container5"
+                ><div class="steps1-container6 thq-card"
+                  ><img
+                    alt="Onboarding Image"
+                    src="public/openart-image_p3vaezvz_1748120431891_raw-1400w.jpg"
+                    class="steps1-image3 thq-img-ratio-1-1"
+                  /><h2 class="thq-heading-2"
+                    ><fragment class="home-fragment35"
+                      ><span class="home-text35"
+                        >We Build It for You</span
+                      ></fragment
+                    ></h2
+                  ><span class="steps1-text17 thq-body-small"
+                    ><fragment class="home-fragment39"
+                      ><span class="home-text39"
+                        >Our experts will set up your custom HR platform —
+                        onboarding, leave tracking, and asset workflows — fully
+                        aligned to your business setup.</span
+                      ></fragment
+                    ></span
+                  ><label class="steps1-text18 thq-heading-3">03</label></div
+                ><div class="steps1-container7 thq-card"
+                  ><img
+                    alt="Asset Tracking Image"
+                    src="public/openart-image_o1zoxqac_1748120825895_raw-1400w.jpg"
+                    class="steps1-image4 thq-img-ratio-1-1"
+                  /><h2 class="thq-heading-2"
+                    ><fragment class="home-fragment36"
+                      ><span class="home-text36"
+                        >Go Live &amp; Start Managing</span
+                      ></fragment
+                    ></h2
+                  ><span class="steps1-text20 thq-body-small"
+                    ><fragment class="home-fragment40"
+                      ><span class="home-text40"
+                        >Your system is deployed and ready. Start managing
+                        employees, automations, and approvals instantly — no
+                        manual work, no spreadsheets.</span
+                      ></fragment
+                    ></span
+                  ><label class="steps1-text21 thq-heading-3">04</label></div
+                ></div
+              ></div
+            ></div
+          ></steps1-wrapper
+        ><footer4-wrapper class="footer4-wrapper"
+          ><!--Footer4 component--><footer
+            class="footer4-footer7 thq-section-padding"
+            ><div class="footer4-max-width thq-section-max-width"
+              ><div class="footer4-credits"
+                ><div class="thq-divider-horizontal"></div
+                ><div class="footer4-row"
+                  ><div class="footer4-container"
+                    ><span class="thq-body-small"
+                      >© 2025 Gap Bridging Solution</span
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></footer
+          ></footer4-wrapper
+        ></div
+      ></div
+    >
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script></body
+></html>
